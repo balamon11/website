@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameZone Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .category {
+      margin-bottom: 40px;
+    }
+
+    .category h2 {
+      border-bottom: 2px solid #f39c12;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .games {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .game {
+      background-color: #1c1c1c;
+      border-radius: 8px;
+      padding: 10px;
+      width: calc(25% - 20px);
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .game img {
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .game h3 {
+      font-size: 1.1em;
+      margin: 10px 0 5px;
+    }
+
+    .game p {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    @media screen and (max-width: 768px) {
+      .game {
+        width: calc(50% - 20px);
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .game {
+        width: 100%;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎮 GameZone Store</h1>
+    <p>Your hub for PS5, PC, Switch & Xbox Games</p>
+  </header>
+
+  <nav>
+    <a href="#ps5">PS5</a>
+    <a href="#pc">PC</a>
+    <a href="#switch">Switch</a>
+    <a href="#xbox">Xbox</a>
+  </nav>
+
+  <div class="container">
