@@ -9,7 +9,7 @@ def rpc(request):
     return render(request,"rpc.html")
 def metro(request):
     return render(request,"metro.html")
-def th(request):
+def theatre(request):
     return render(request,"theatre.html")
 def beach(request):
     return render(request,"beach.html")

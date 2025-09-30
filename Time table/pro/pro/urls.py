@@ -1,5 +1,5 @@
 """
-URL configuration for image_map project.
+URL configuration for pro project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -16,14 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from map import views
+from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.map),
-    path('rail.html/',views.rail)
-    ,path('rpc.html/',views.rpc)
-    ,path('beach.html/',views.beach)
-    ,path('metro.html/',views.metro)
-    ,path('theatre.html/',views.theatre),
+    path('',views.timetable)
 ]
