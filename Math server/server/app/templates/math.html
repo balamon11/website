@@ -1,0 +1,57 @@
+
+</html>
+<head>
+    <title>Math Server
+    </title>
+<style>
+    body{
+        background:linear-gradient(135deg,pink,blue);
+    }
+    h1{
+        font-size:50px;color:Black
+    }
+    h2{
+        border:5px;border-color:solid black;color:black
+    }
+    button{
+        color:green;
+
+    }
+    button:hover{
+        color:blue
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body><center>
+    <h1>Power Of Incadesent Lamp Calculator</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <label>Intensity (I):</label>
+            <input type="number" name="intensity" required>
+
+            <label>Resistance (R):</label>
+            <input type="number" name="resistance" required>
+
+            <button type="submit">Calculate</button>
+        </form>
+         <h2>Power (P) = {{ result }} Watts</h2>
+    </center>
+</body>
+</html>
