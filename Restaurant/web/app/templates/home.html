@@ -1,0 +1,76 @@
+{% load static %}
+
+<html>
+    <head>
+        <style>
+
+            body{
+                background:linear-gradient(300deg,white,pink)
+            }
+            .head{
+                color:black;
+                text-shadow: 4px 4px 4px white;
+                position:relative;
+                top:35px;
+            }
+            .title{
+                color:black;
+                text-shadow: 4px 4px 4px white;
+                position:aboslute;
+                top:35px;
+            }
+            button{
+                position:relative;
+                top:40px;
+                width:200px;
+                height:50px;
+                color:white;
+                background:black;
+            }
+            img{
+                height:100x;
+                width:100px;
+                position:relative;
+                left:450px;
+                top:-65px;
+
+                
+            }
+        </style>
+
+
+
+    </head>
+    <body>
+        <div class="head">
+            <center><h1>Smoke Flying Chai Shop</h1></div></center>
+            <img src={% static "chai.png" %} >
+<div class="title">
+             <center>   <h1>Home</h1></center>
+
+           <center> 
+            <a href='/'><button>Home</button></a>
+
+            <a href='/menu'><button>Menu</button></a>
+           <a href='/admin'> <button>Administration</button></a>
+           <a href='/contact'> <button>Contact Us</button></a>
+</div>
+
+
+<img src={% static "head1.png" %} style='top:500px; position:absolute;  left:150px;height:275px;width:1290px; border:3px solid black;border-radius:10px;'>
+
+
+<img src={% static "head2.png" %} style='top:500px; position:relative;  left:140px;height:600px;width:400px; border:3px solid black;border-radius:10px;'>
+
+<img src={% static "head3.png" %} style='top:500px; position:relative;  left:180px;height:600px;width:400px; border:3px solid black;border-radius:10px;'>
+
+<img src={% static "head4.png" %} style='top:500px; position:aboslute;  left:220px;height:600px;width:400px; border:3px solid black;border-radius:10px;'>
+
+
+
+</center>
+   <center>        
+ <h4 style='color:blue;position:relative;top:1000px;'> designed and developed by balaji<h4></center>
+
+    </body>
+</html>

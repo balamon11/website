@@ -1,0 +1,32 @@
+
+    <img src={% static "capp2.jpeg" %} style='' >
+    
+    
+    <img src={% static "boba3.jpeg" %} style=''>
+ 
+
+<img src={% static "coffee4.jpeg" %} >
+
+
+
+<img src={% static "ice5.jpeg" %} >
+
+
+<img src={% static "green6.jpeg" %} >
+
+
+<img src={% static "black7.jpeg" %} >
+
+
+<img src={% static "choco8.jpeg" %} >
+
+
+<img src={% static "straw9.jpeg" %} >
+
+
+<img src={% static "falooda10.jpeg" %} >
+
+<img src={% static "latte11.jpeg" %} >
+
+
+<img src={% static "rose12.jpeg" %} >
